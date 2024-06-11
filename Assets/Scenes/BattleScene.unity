@@ -560,9 +560,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3025092139692275152, guid: 3a6c3ef8bf2de7743b6eb9ff0c55254e, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1448107027}
+    - target: {fileID: 3090434797737363132, guid: 3a6c3ef8bf2de7743b6eb9ff0c55254e, type: 3}
+      propertyPath: m_Name
+      value: sword
+      objectReference: {fileID: 0}
     - target: {fileID: 3985231512699593755, guid: 3a6c3ef8bf2de7743b6eb9ff0c55254e, type: 3}
       propertyPath: m_Name
       value: Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858700937783530582, guid: 3a6c3ef8bf2de7743b6eb9ff0c55254e, type: 3}
+      propertyPath: m_Name
+      value: shield
       objectReference: {fileID: 0}
     - target: {fileID: 7742877552815200501, guid: 3a6c3ef8bf2de7743b6eb9ff0c55254e, type: 3}
       propertyPath: m_RootOrder
@@ -2009,7 +2021,7 @@ RectTransform:
   m_GameObject: {fileID: 1078259449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1151168212}
@@ -2306,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -400, y: -100}
+  m_AnchoredPosition: {x: -400, y: -150}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178018391
@@ -2375,7 +2387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1178410111
 Transform:
   m_ObjectHideFlags: 0
@@ -2543,7 +2555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -100}
+  m_AnchoredPosition: {x: 400, y: -150}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448107027
@@ -2591,9 +2603,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.386
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3134,7 +3146,7 @@ RectTransform:
   m_GameObject: {fileID: 1842531228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1151168212}
@@ -3279,10 +3291,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3299,7 +3311,7 @@ Canvas:
   m_GameObject: {fileID: 1972766149}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 2018256253}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3363,7 +3375,7 @@ RectTransform:
   m_GameObject: {fileID: 1978916459}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1151168212}
@@ -3780,7 +3792,7 @@ RectTransform:
   m_GameObject: {fileID: 2130529986}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1151168212}
@@ -3853,10 +3865,6 @@ PrefabInstance:
     - target: {fileID: 1000011742669328, guid: d96dcfd835a797d49ab2fa1e6cbfa4ba, type: 3}
       propertyPath: m_Name
       value: Soldier
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000011742669328, guid: d96dcfd835a797d49ab2fa1e6cbfa4ba, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4000013857073264, guid: d96dcfd835a797d49ab2fa1e6cbfa4ba, type: 3}
       propertyPath: m_RootOrder

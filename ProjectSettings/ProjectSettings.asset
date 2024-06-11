@@ -770,7 +770,7 @@ PlayerSettings:
   webGLEmscriptenArgs: ' -s EXPORTED_FUNCTIONS=_sbrk,_emscripten_stack_get_base,_emscripten_stack_get_end
     -s TOTAL_MEMORY=256MB'
   webGLModulesDirectory: 
-  webGLTemplate: PROJECT:WXTemplate2020
+  webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 2
